@@ -13,14 +13,21 @@
         .menu{
             display: flex;
             &__item{
-                
+               
                 .link {
+                    
                         text-transform: uppercase;
                         text-decoration: none;
                         color: $white;
                         font-size: 16px;
                         font-weight: 400;
                         padding: 0 10px;
+                        &:hover{
+                            border-bottom: 1px solid $white;
+                        }
+                    }
+                    .selected{
+                        border-bottom: 1px solid $white;
                     }
             }
     
